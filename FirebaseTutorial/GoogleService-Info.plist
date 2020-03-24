@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>484422690051-pcfaol3kthc2j43637gm4bsf47865pnj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.484422690051-pcfaol3kthc2j43637gm4bsf47865pnj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBoc8w2n5YWzRzl0gkyiNexvsHHsMPTaI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>484422690051</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wimes.FirebaseTutorial</string>
+	<key>PROJECT_ID</key>
+	<string>fir-tutorial-66f3e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-tutorial-66f3e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:484422690051:ios:59ebfb9588d3f2f99ab536</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-tutorial-66f3e.firebaseio.com</string>
+</dict>
+</plist>
