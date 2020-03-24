@@ -27,32 +27,32 @@ Firebase인증의 내용은 [Document](https://firebase.google.com/docs/auth)에
 
    https://console.firebase.google.com/u/0/?pli=1 에서 프로젝트를 만들어줍니다.
 
-   ![image-20200323161015075](25.Firebase_Auth.assets/image-20200323161015075.png)
+   ![image-20200323161015075](README.assets/image-20200323161015075.png)
 
-   ![image-20200323161058909](25.Firebase_Auth.assets/image-20200323161058909.png)
+   ![image-20200323161058909](README.assets/image-20200323161058909.png)
 
    
 
 3. iOS앱에 Firebase추가하기
 
-   ![image-20200323161542369](25.Firebase_Auth.assets/image-20200323161542369.png)
+   ![image-20200323161542369](README.assets/image-20200323161542369.png)
 
    Xcode > General > Identity > Bundle Identifier 에있는 번들 ID를 넣어줍니다.
-   ![image-20200323161742856](25.Firebase_Auth.assets/image-20200323161742856.png)
+   ![image-20200323161742856](README.assets/image-20200323161742856.png)
 
    
 
    다시 Firebase Dashboard로 돌아와서 Bundle ID를 넣어줍니다.
 
-   ![image-20200323162025931](25.Firebase_Auth.assets/image-20200323162025931.png)
+   ![image-20200323162025931](README.assets/image-20200323162025931.png)
 
-   ![image-20200323162047084](25.Firebase_Auth.assets/image-20200323162047084.png)
+   ![image-20200323162047084](README.assets/image-20200323162047084.png)
 
    
 
    Xcode > File > Add Files to "FirebaseTutorial" ... 를 통해 plist 파일을 추가해줍니다.
 
-   ![image-20200323162239334](25.Firebase_Auth.assets/image-20200323162239334.png)
+   ![image-20200323162239334](README.assets/image-20200323162239334.png)
 
 4. 초기화 코드 추가
 
@@ -80,7 +80,7 @@ Firebase인증의 내용은 [Document](https://firebase.google.com/docs/auth)에
 
    App을 실행하여 설치를 확인합니다.
 
-   ![image-20200323170639720](25.Firebase_Auth.assets/image-20200323170639720.png)
+   ![image-20200323170639720](README.assets/image-20200323170639720.png)
 
    
 
@@ -88,14 +88,14 @@ Firebase인증의 내용은 [Document](https://firebase.google.com/docs/auth)에
 
    Dashboard 가운데에 있는 Authentication 을 선택
 
-   ![image-20200323170747079](25.Firebase_Auth.assets/image-20200323170747079.png)
+   ![image-20200323170747079](README.assets/image-20200323170747079.png)
 
    로그인 방법 설정을 정합니다. 아리의 그림에서 "이메일/비밀번호"를 선택합니다.
-   ![image-20200323171207904](25.Firebase_Auth.assets/image-20200323171207904.png)
+   ![image-20200323171207904](README.assets/image-20200323171207904.png)
 
    다음과 같이 설정하고 저장합니다.
 
-   ![image-20200323172640215](25.Firebase_Auth.assets/image-20200323172640215.png)
+   ![image-20200323172640215](README.assets/image-20200323172640215.png)
 
    
 
@@ -203,13 +203,13 @@ struct ContentView: View {
 
 
 
-![image-20200323210734886](25.Firebase_Auth.assets/image-20200323210734886.png)
+![image-20200323210734886](README.assets/image-20200323210734886.png)
 
 
 
 회원가입을 누르면 아래의 사진과 같이 FirebaseDash에 데이터가 들어간 것을 볼 수 있습니다.
 
-![image-20200323210827986](25.Firebase_Auth.assets/image-20200323210827986.png)
+![image-20200323210827986](README.assets/image-20200323210827986.png)
 
 
 
@@ -221,13 +221,13 @@ struct ContentView: View {
 
 1. https://developers.facebook.com에서 내앱 > + 앱만들기를 클릭합니다.
 
-   ![image-20200323212418064](25.Firebase_Auth.assets/image-20200323212418064.png)
+   ![image-20200323212418064](README.assets/image-20200323212418064.png)
 
    
 
 2. 적절한 이름 선택후 ID를 만들어 줍니다.
 
-   ![image-20200323212528104](25.Firebase_Auth.assets/image-20200323212528104.png)
+   ![image-20200324131759185](README.assets/image-20200324131759185.png)
 
 3. cocoapod을 이용해 SDK를 설치해줍니다.
 
@@ -237,13 +237,13 @@ struct ContentView: View {
 
 4. 번들 ID를 넣어줍니다.
 
-   ![image-20200323213139082](25.Firebase_Auth.assets/image-20200323213139082.png)
+   ![image-20200323213139082](README.assets/image-20200323213139082.png)
 
 5. SSO는 설정해주지 않습니다.
 
    [SSO(Single-Sign-On)](https://www.facebook.com/help/work/932696040193798?helpref=uf_permalink)은 간단히 말해서 한번 접속하고 나면 다음에 접속할땐 아이디랑 비밀번호를 물어보지 않고 바로 접속해주는 기능입니다.
 
-   ![image-20200323213451078](25.Firebase_Auth.assets/image-20200323213451078.png)
+   ![image-20200323213451078](README.assets/image-20200323213451078.png)
 
 6. Info.plist 구성
 
@@ -297,25 +297,25 @@ struct ContentView: View {
 
    Facebook 로그인 > 설정 > 유효한 OAuth 리디렉션 URI 에 채워넣기 위해 Firebase에서 작업을 진행하겠습니다.
 
-   ![image-20200323215220783](25.Firebase_Auth.assets/image-20200323215220783.png)
+   ![image-20200323215220783](README.assets/image-20200323215220783.png)
 
    
 
    Firebase dashboard에서 Facebook을 선택하면 
 
-   ![image-20200323215301669](25.Firebase_Auth.assets/image-20200323215301669.png)
+   ![image-20200323215301669](README.assets/image-20200323215301669.png)
 
    
 
    아래와 같이 OAuth 리디렉션 URI가 있습니다.
 
-   ![image-20200323215330210](25.Firebase_Auth.assets/image-20200323215330210.png)
+   ![image-20200323215330210](README.assets/image-20200323215330210.png)
 
    
 
    이를 복사해 Facebook 대시보드에 넣어줍니다.
 
-   ![image-20200323215414850](25.Firebase_Auth.assets/image-20200323215414850.png)
+   ![image-20200323215414850](README.assets/image-20200323215414850.png)
 
    
 
@@ -327,7 +327,7 @@ struct ContentView: View {
 
    그리고 Firebase dashboard의 facebook에 각각 채워넣어 줍니다.
 
-   ![image-20200323215817743](25.Firebase_Auth.assets/image-20200323215817743.png)
+   ![image-20200323215817743](README.assets/image-20200323215817743.png)
 
 ### Firebase Auth(facebook)
 
@@ -394,13 +394,13 @@ struct ContentView: View {
 
 4. 버튼을 눌러 로그인을 해봅니다.
 
-   ![image-20200324125744047](25.Firebase_Auth.assets/image-20200324125744047.png)
+   ![image-20200324125744047](README.assets/image-20200324125744047.png)
 
-   ![image-20200324125757157](25.Firebase_Auth.assets/image-20200324125757157.png)
+   ![image-20200324125757157](README.assets/image-20200324125757157.png)
 
    제대로 UserData를 받아오는 것을 볼 수 있습니다.
 
-   ![image-20200324125532626](25.Firebase_Auth.assets/image-20200324125532626.png)
+   ![image-20200324125532626](README.assets/image-20200324125532626.png)
 
 ## 전체 코드
 
